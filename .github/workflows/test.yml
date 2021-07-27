@@ -16,3 +16,4 @@ jobs:
     - run: |
         echo "Env: ${{ github.event.inputs.environment }}" 
         echo "Branch: ${{ github.event.inputs.branch }}"
+        echo "Selected branch $GITHUB_REF"
